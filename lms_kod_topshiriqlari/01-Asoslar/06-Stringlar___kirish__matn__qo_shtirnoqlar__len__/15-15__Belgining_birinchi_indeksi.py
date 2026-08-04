@@ -1,5 +1,4 @@
-x = input()
-z = input()
-x = x[::-1]
-
-print(x.find(z))
+matn = input().strip()
+belgi = input().strip()
+matn = matn[::-1]
+print(matn.find(belgi))
